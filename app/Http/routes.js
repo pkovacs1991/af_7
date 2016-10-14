@@ -17,5 +17,5 @@
 
 const Route = use('Route')
 
-Route.on('/').render('welcome')
-Route.get('/teszt','PostController.index')
+//Route.on('/').render('welcome')
+Route.get('/','RecipeController.index')

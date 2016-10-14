@@ -1,0 +1,89 @@
+{% extends 'master' %}
+
+{% block content %}
+  <form action="#" method="GET">
+    <div class="input-group search-box">
+      <input type="text" class="form-control" placeholder="Keresés...">
+      <span class="input-group-btn">
+        <button class="btn btn-info" type="submit">Mehet!</button>
+      </span>
+    </div>
+  </form>
+
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Levesek
+          <a href="#" class="btn btn-warning btn-xs pull-right">Összes megtekintése</a>
+        </div>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Paradicsomleves</a>
+          <a href="#" class="list-group-item">Fokhagyma krémleves</a>
+          <a href="#" class="list-group-item">Eperkrémleves</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Főételek
+          <a href="#" class="btn btn-warning btn-xs pull-right">Összes megtekintése</a>
+        </div>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Cordon bleu burgonyapürével</a>
+          <a href="#" class="list-group-item">Töltött káposzta</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Desszertek
+          <a href="#" class="btn btn-warning btn-xs pull-right">Összes megtekintése</a>
+        </div>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Aranygaluska leves</a>
+          <a href="#" class="list-group-item">Madártej kecelisen</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Saláták
+          <a href="#" class="btn btn-warning btn-xs pull-right">Összes megtekintése</a>
+        </div>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Görög saláta feta sajttal</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          Pizzák
+          <a href="#" class="btn btn-warning btn-xs pull-right">Összes megtekintése</a>
+        </div>
+        <div class="list-group">
+          <a href="#" class="list-group-item">Margarita pizza</a>
+          <a href="#" class="list-group-item">Mexikói pizza</a>
+          <a href="#" class="list-group-item">Sonkás-gombás pizza</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+{% endblock %}
